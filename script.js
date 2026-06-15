@@ -47,7 +47,7 @@
         {
           title: 'CMO of Angry Birds',
           desc: 'Long-form conversation with the Chief Marketing Officer of Angry Birds.',
-          link: '#',
+          link: 'https://youtu.be/L5vUt366Z-M?si=ahWBmCXQbXYc0ftd',
           thumb: './images/TNL.png',
           // mark: 'Angry Birds.',
           // badge: 'Notable Guest',
