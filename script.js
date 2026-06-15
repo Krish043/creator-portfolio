@@ -109,46 +109,6 @@
       ]
     },
     {
-      id: 'short-podcast',
-      label: 'Short Form Podcast',
-      tone: 'tone-shortpod',
-      blurb: 'Podcast clips optimized for retention — highlights, viral moments & hook-based edits.',
-      projects: [
-        {
-          title: 'JPMC & Microsoft: Rejected vs. Revoked',
-          desc: 'High-retention podcast clip exposing the harsh realities of on-campus placement policies. Fast-paced cuts designed for maximum engagement.',
-          link: 'https://youtube.com/shorts/cHpcOoklASc?si=FLo50E-UVVrGOkvF',
-          thumb: './images/sp1.jpg',
-          duration: 'Short Form',
-          tags: ['Corporate Reality', 'Viral Hook', 'Podcast Clip']
-        },
-        {
-          title: 'The Infosys 4-Question Matrix',
-          desc: 'Snappy, hook-based edit breaking down pre-decided salary traps in mass hiring drives. Built for cross-platform virality.',
-          link: 'https://youtube.com/shorts/erRHc4UnvcY?si=BGrm4GosidgiHLi4',
-          thumb: './images/sp2.jpg',
-          duration: 'Short Form',
-          tags: ['Expose', 'Tech Placements', 'High-Retention']
-        },
-        {
-          title: 'Did GREED Destroy Angry Birds?',
-          desc: 'Documentary-style short featuring Peter Vesterbacka. Uses dynamic framing and tension-building audio to craft a compelling business story in under 30 seconds.',
-          link: 'https://youtube.com/shorts/iLK3lSyj7Ss?si=3EC65zDtJPZMmaJl',
-          thumb: './images/sp3.jpg',
-          duration: 'Short Form',
-          tags: ['Interview', 'Brand Story', 'Business']
-        },
-        {
-          title: 'The Truth About Campus Placements',
-          desc: 'Unfiltered, highly relatable conversation about college hiring contracts. Engineered with L-cuts and visual pop-ups to hold the viewer\'s attention.',
-          link: 'https://youtube.com/shorts/meSTZj11aIE?si=24-l4rzRrsGT0LE_',
-          thumb: './images/sp4.jpg',
-          duration: 'Short Form',
-          tags: ['Student Life', 'Commentary', 'Editing']
-        }
-      ]
-    },
-    {
       id: 'short-talking-head',
       label: 'Short Form Talking Head',
       tone: 'tone-shortth',
@@ -187,6 +147,46 @@
       tags: ['Google Gemini', 'Student Ambassador']
     }
   ]
+    },
+     {
+      id: 'short-podcast',
+      label: 'Short Form Podcast',
+      tone: 'tone-shortpod',
+      blurb: 'Podcast clips optimized for retention — highlights, viral moments & hook-based edits.',
+      projects: [
+        {
+          title: 'JPMC & Microsoft: Rejected vs. Revoked',
+          desc: 'High-retention podcast clip exposing the harsh realities of on-campus placement policies. Fast-paced cuts designed for maximum engagement.',
+          link: 'https://youtube.com/shorts/cHpcOoklASc?si=FLo50E-UVVrGOkvF',
+          thumb: './images/sp1.jpg',
+          duration: 'Short Form',
+          tags: ['Corporate Reality', 'Viral Hook', 'Podcast Clip']
+        },
+        {
+          title: 'The Infosys 4-Question Matrix',
+          desc: 'Snappy, hook-based edit breaking down pre-decided salary traps in mass hiring drives. Built for cross-platform virality.',
+          link: 'https://youtube.com/shorts/erRHc4UnvcY?si=BGrm4GosidgiHLi4',
+          thumb: './images/sp2.jpg',
+          duration: 'Short Form',
+          tags: ['Expose', 'Tech Placements', 'High-Retention']
+        },
+        {
+          title: 'Did GREED Destroy Angry Birds?',
+          desc: 'Documentary-style short featuring Peter Vesterbacka. Uses dynamic framing and tension-building audio to craft a compelling business story in under 30 seconds.',
+          link: 'https://youtube.com/shorts/iLK3lSyj7Ss?si=3EC65zDtJPZMmaJl',
+          thumb: './images/sp3.jpg',
+          duration: 'Short Form',
+          tags: ['Interview', 'Brand Story', 'Business']
+        },
+        {
+          title: 'The Truth About Campus Placements',
+          desc: 'Unfiltered, highly relatable conversation about college hiring contracts. Engineered with L-cuts and visual pop-ups to hold the viewer\'s attention.',
+          link: 'https://youtube.com/shorts/meSTZj11aIE?si=24-l4rzRrsGT0LE_',
+          thumb: './images/sp4.jpg',
+          duration: 'Short Form',
+          tags: ['Student Life', 'Commentary', 'Editing']
+        }
+      ]
     },
     {
       id: 'animated-ngo',
