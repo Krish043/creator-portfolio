@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Krish — Engineering Attention On The Internet</title>
+<link rel="shortcut icon" href="./images/content-creator.png">
+<meta name="description" content="Krish — Creator. Editor. Podcast operator. Building content that performs." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#top" class="nav__logo">
+    <span class="logo-mark">◉</span>
+    <span class="logo-word">KRISH</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+  </nav>
+  <a href="#contact" class="nav__cta magnetic" data-magnetic>
+    <span>Let's Build</span>
+    <span class="arrow">→</span>
+  </a>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__meta">
+    <span class="tag">● LIVE — Open for collabs · 2026</span>
+  </div>
+
+  <h1 class="hero__headline">
+    <span class="line"><span>Attention</span></span>
+    <span class="line"><span>is the new</span></span>
+    <span class="line line--accent"><span>currency.</span></span>
+  </h1>
+
+  <div class="hero__bottom">
+    <p class="hero__sub">
+      Podcasts, edits & founder content at the intersection of <span class="highlight">internet psychology</span> and <span class="highlight">creator growth</span>. I build stuff people actually stop scrolling for.
+    </p>
+
+    <div class="hero__cta">
+      <a href="#work" class="btn btn--primary magnetic" data-magnetic>
+        <span>View Work</span>
+        <span class="arrow">→</span>
+      </a>
+      <a href="#contact" class="btn btn--ghost magnetic" data-magnetic>
+        <span>Let's Talk</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__float hero__float--reel" aria-hidden="true">
+    <div class="reel-frame">
+      <div class="reel-bars">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="reel-meta"><span>REC ●</span><span>00:42 / 01:18</span></div>
+    </div>
+  </div>
+
+  <div class="hero__float hero__float--stat" aria-hidden="true">
+    <div class="stat-card">
+      <div class="stat-card__num">1.7M</div>
+      <div class="stat-card__label">Dashboard views<br/>past 30 days · IG</div>
+    </div>
+  </div>
+
+  <div class="hero__float hero__float--wave" aria-hidden="true">
+    <div class="wave">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="wave-label">Perspective · EP 07</div>
+  </div>
+</section>
+
+<!-- ============ MINI TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>STORYTELLING</span><span>✺</span>
+    <span>RETENTION EDITING</span><span>✺</span>
+    <span>HOOK ENGINEERING</span><span>✺</span>
+    <span>PODCAST PRODUCTION</span><span>✺</span>
+    <span>FOUNDER BRANDING</span><span>✺</span>
+    <span>INTERNET CULTURE</span><span>✺</span>
+    <span>STORYTELLING</span><span>✺</span>
+    <span>RETENTION EDITING</span><span>✺</span>
+    <span>HOOK ENGINEERING</span><span>✺</span>
+    <span>PODCAST PRODUCTION</span><span>✺</span>
+    <span>FOUNDER BRANDING</span><span>✺</span>
+    <span>INTERNET CULTURE</span><span>✺</span>
+  </div>
+</div>
+
+<!-- ============ WORK LIBRARY ============ -->
+<!--
+  ════════════════════════════════════════════════════════════════════
+  THIS SECTION IS DATA-DRIVEN. You do NOT edit HTML to manage work.
+  ────────────────────────────────────────────────────────────────────
+  • To ADD / REMOVE / REORDER projects, categories, links, thumbnails,
+    tags, durations → edit the PORTFOLIO config at the top of script.js.
+  • Everything below is rendered automatically from that one config.
+  ════════════════════════════════════════════════════════════════════
+-->
+<section class="section work" id="work">
+  <header class="section__head">
+    <span class="section__index">01 / WORK LIBRARY</span>
+    <h2 class="section__title">The <em>library</em>.</h2>
+    <p class="section__lede">Everything I make, organized by format. Scripted, shot, and edited by me. Pick a shelf — podcasts, talking-head, short-form, promos, animation — and explore the work.</p>
+  </header>
+
+  <div class="lib" id="lib">
+    <!-- Level 1 — category navigation (rendered from config) -->
+    <div class="lib__tabs" role="tablist" aria-label="Work categories" id="libTabs"></div>
+    <!-- Level 2 — project cards per category (rendered from config) -->
+    <div class="lib__panels" id="libPanels"></div>
+  </div>
+</section>
+
+<!-- ============ METRICS STRIP ============ -->
+<section class="metrics">
+  <div class="metrics__grid">
+    <div class="metric reveal">
+      <div class="metric__num"><span class="counter" data-target="1.7">0</span>M</div>
+      <div class="metric__label">IG dashboard views<br/>past 30 days</div>
+    </div>
+    <div class="metric reveal">
+      <div class="metric__num"><span class="counter" data-target="04">0</span></div>
+      <div class="metric__label">Notable voices<br/>hosted on the mic</div>
+    </div>
+    <div class="metric reveal">
+      <div class="metric__num"><span class="counter" data-target="50">0</span>+</div>
+      <div class="metric__label">Edits shipped<br/>shorts · reels · long-form</div>
+    </div>
+    <div class="metric reveal">
+      <div class="metric__num"><span class="counter" data-target="06">0</span></div>
+      <div class="metric__label">Months inside<br/>a fast-moving startup</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS — COMPACT 2×3 GRID ============ -->
+<section class="section section--cream skills">
+  <header class="section__head">
+    <span class="section__index">02 / OPERATING SYSTEM</span>
+    <h2 class="section__title">
+      Not a skillset. An <em>operating system</em>.
+    </h2>
+  </header>
+
+  <div class="skills__grid">
+    <div class="skill reveal">
+      <span class="skill__num">01</span>
+      <h3>Retention Editing</h3>
+      <p>Cutting on motion, emotion & curiosity gaps — not just on words.</p>
+    </div>
+    <div class="skill reveal">
+      <span class="skill__num">02</span>
+      <h3>Hook Engineering</h3>
+      <p>The first 3 seconds is a product. I design it like one.</p>
+    </div>
+    <div class="skill reveal">
+      <span class="skill__num">03</span>
+      <h3>Podcast Production</h3>
+      <p>End-to-end: research, scripting, hosting, post, distribution.</p>
+    </div>
+    <div class="skill reveal">
+      <span class="skill__num">04</span>
+      <h3>Founder Branding</h3>
+      <p>Operators as the most credible distribution channel they own.</p>
+    </div>
+    <div class="skill reveal">
+      <span class="skill__num">05</span>
+      <h3>Content Systems</h3>
+      <p>One idea → 10 formats. Assembly line, shipped like an artist.</p>
+    </div>
+    <div class="skill reveal">
+      <span class="skill__num">06</span>
+      <h3>Technical × Marketing</h3>
+      <p>Engineering mind. Creator instinct. The hybrid teams quietly hire for.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT + JOURNEY (SINGLE SECTION) ============ -->
+<section class="section section--dark about" id="about">
+  <header class="section__head">
+    <span class="section__index section__index--dark">03 / ABOUT</span>
+    <h2 class="section__title">
+      Creator/operator hybrid.<br/>The path was <em>non-linear</em> — that was the <span class="outline-light">point</span>.
+    </h2>
+  </header>
+
+  <div class="about__layout">
+    <div class="about__copy">
+      <p>
+        <em>Krish</em> — B.Tech CSE from Nirma University. Started with web dev freelancing & hackathons, then six months inside <strong>Aubergine Solutions</strong> — close to founders, products and the messy reality of building tech businesses. Picked up a camera, opened a timeline, never put it down.
+      </p>
+      <p>
+        Today I work at the intersection of <em>storytelling, internet culture, podcasting & founder branding</em> — engineering attention on the internet.
+      </p>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline__item reveal">
+        <span class="timeline__year">2022</span>
+        <span class="timeline__body">B.Tech CSE · Nirma University</span>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__year">2023</span>
+        <span class="timeline__body">Web dev freelancing · hackathons</span>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__year">2024</span>
+        <span class="timeline__body">Startup internships · AI training freelancing</span>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__year">2025</span>
+        <span class="timeline__body">Aubergine Solutions · business development</span>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__year">2026</span>
+        <span class="timeline__body">Solo Podcast Build · Content Creation </span>
+      </li>
+      <li class="timeline__item reveal timeline__item--now">
+        <span class="timeline__year">2026 →</span>
+        <span class="timeline__body">Building. Editing. Operating.</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <span class="section__index">04 / CONTACT</span>
+
+  <h2 class="contact__headline">
+    Want content that <em>actually performs</em>? <span class="outline">Let's talk.</span>
+  </h2>
+
+  <a href="mailto:krishgangajaliya1@gmail.com" class="contact__email magnetic" data-magnetic>
+    krishgangajaliya1@gmail.com
+    <span class="arrow">→</span>
+  </a>
+
+  <div class="contact__channels">
+    <a href="https://www.instagram.com/krrish_145/" class="channel magnetic" data-magnetic><span>Instagram</span><span class="arrow">↗</span></a>
+    <a href="https://www.youtube.com/@krish_gangajaliya" class="channel magnetic" data-magnetic><span>YouTube</span><span class="arrow">↗</span></a>
+    <a href="https://www.linkedin.com/in/krish-gangajaliya-47a36937a/" class="channel magnetic" data-magnetic><span>LinkedIn</span><span class="arrow">↗</span></a>
+    <a href="https://www.instagram.com/krazyy_krish/" class="channel magnetic" data-magnetic><span>krazyy Krish</span><span class="arrow">↗</span></a>
+    
+  </div>
+
+  <footer class="foot">
+    <span>© 2026 Krish · Built like a media studio.</span>
+    <span>Designed for attention.</span>
+  </footer>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
