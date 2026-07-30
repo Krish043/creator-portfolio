@@ -57,8 +57,8 @@
         {
           title: 'Perspective',
           desc: 'Flagship series. Engineering students — the reality behind the resumé. Written, hosted & edited solo.',
-          link: 'https://youtube.com/playlist?list=PLfAfsBKvpBl-t5De-SwYM6t9ZITaV8Oc7&si=7sBkIifX_FHjbwr4',
-          thumb: './images/persp.jpg',
+          link: 'https://youtu.be/MVQ30tDKsKg',
+          thumb: './images/gthb.jpg',
           // mark: 'Perspective.',
           // badge: 'Flagship Series',
           duration: 'Series',
