@@ -83,6 +83,22 @@
       blurb: 'Long-form educational, personal-branding & commentary talking-head content.',
       projects: [
         {
+          title: 'Ep 04 | The Hackathon Saga',
+          desc: 'I won my first Hackathon, but something was wrong. Breaking stereotypes, solo coding against teams, and the bittersweet taste of victory.',
+          link: 'https://youtu.be/HY45REALZT4',
+          thumb: './images/ep4.jpg',
+          duration: 'Documentary',
+          tags: ['Personal Branding', 'Commentary', 'Tech']
+        },
+         {
+          title: 'How I met angry birds founder?',
+          desc: 'Out of nowhere, I ended up having a podcast with Rovio Entertainment\'s ex-CMO: Peter Vesterbacka. Without any connections.',
+          link: 'https://youtu.be/u6JzZMyMUbs',
+          thumb: './images/tnlAB.png',
+          duration: 'Documentary',
+          tags: ['Personal Branding', 'Storytelling', 'Networking']
+        },
+         {
           title: 'How to Network? (0 CONNECTIONS)',
           desc: 'A masterclass in event networking. Hacking the system to connect with top-tier founders and industry legends in 48 hours.',
           link: 'https://youtu.be/BYdJZ8KfWVQ',
@@ -90,22 +106,7 @@
           duration: 'Masterclass',
           tags: ['Commentary', 'Educational', 'Storytelling']
         },
-        {
-          title: 'Ep 02 | The Hackathon Saga',
-          desc: 'Everything was perfect, until the last minute... A 24-hour coding marathon, strategic pivots, and the brutal reality of open innovation.',
-          link: 'https://youtu.be/mssR5m5qsPo',
-          thumb: './images/ep2.jpg',
-          duration: 'Documentary',
-          tags: ['Founder-led', 'Experience', 'Tech']
-        },
-        {
-          title: 'Ep 04 | The Hackathon Saga',
-          desc: 'I won my first Hackathon, but something was wrong. Breaking stereotypes, solo coding against teams, and the bittersweet taste of victory.',
-          link: 'https://youtu.be/HY45REALZT4',
-          thumb: './images/ep4.jpg',
-          duration: 'Documentary',
-          tags: ['Personal Branding', 'Commentary', 'Tech']
-        }
+        
       ]
     },
     {
