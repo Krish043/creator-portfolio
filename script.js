@@ -76,6 +76,31 @@
         }
       ]
     },
+     {
+      id: 'animated-ngo',
+      label: 'Client Work',
+      tone: 'tone-animated',
+      blurb: 'Handled client\'s youtube channel, insta and individual videos end to end.',
+      projects: [
+         
+        {
+          title: 'SMM mafia - youtube channel',
+          desc: 'A youtube channel for educating people about social media marketing. handled end to end work including scripting, performing, editing and post production.',
+          link: 'https://www.youtube.com/@smmmafia',
+          thumb: './images/SMM.png',
+          duration: 'Education',
+          tags: ['Solo Project', 'Acting', 'Video Editing']
+        },
+        {
+          title: 'Sewa Foundation — Dream Tour',
+          desc: 'A collaborative project blending real college B-rolls, custom animations, and motion graphics into an educational career roadmap. Executed narrative structuring and final editing within a multi-disciplinary team.',
+          link: 'https://youtu.be/4Arr5Kzca_I',
+          thumb: './images/ss.avif',
+          duration: 'Film',
+          tags: ['Team Project', 'Narrative', 'Video Editing']
+        }
+      ]
+    }
     {
       id: 'talking-head',
       label: 'Talking Head',
@@ -189,31 +214,6 @@
         }
       ]
     },
-    {
-      id: 'animated-ngo',
-      label: 'Client Work',
-      tone: 'tone-animated',
-      blurb: 'Handled client\'s youtube channel, insta and individual videos end to end.',
-      projects: [
-         
-        {
-          title: 'SMM mafia - youtube channel',
-          desc: 'A youtube channel for educating people about social media marketing. handled end to end work including scripting,performing, editing and post production.',
-          link: 'https://www.youtube.com/@smmmafia',
-          thumb: './images/SMM.png',
-          duration: 'Education',
-          tags: ['Solo Project', 'Acting', 'Video Editing']
-        },
-        {
-          title: 'Sewa Foundation — Dream Tour',
-          desc: 'A collaborative project blending real college B-rolls, custom animations, and motion graphics into an educational career roadmap. Executed narrative structuring and final editing within a multi-disciplinary team.',
-          link: 'https://youtu.be/4Arr5Kzca_I',
-          thumb: './images/ss.avif',
-          duration: 'Film',
-          tags: ['Team Project', 'Narrative', 'Video Editing']
-        }
-      ]
-    }
   ];
 
   /* ---------- Render the Work Library from config ---------- */
