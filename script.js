@@ -191,10 +191,19 @@
     },
     {
       id: 'animated-ngo',
-      label: 'Animated · NGO',
+      label: 'Client Work',
       tone: 'tone-animated',
-      blurb: 'Animation work — NGO project, motion graphics & explainer animations.',
+      blurb: 'Handled client\'s youtube channel end to end from scripting, hosting, editing and post production for promoting their product/event.',
       projects: [
+         
+        {
+          title: 'SMM mafia - youtube channel',
+          desc: 'A youtube channel for educating people about social media marketing. handled end to end work including scripting,performing, editing and post production.',
+          link: 'https://www.youtube.com/@smmmafia',
+          thumb: './images/ss.avif',
+          duration: 'Education',
+          tags: ['Solo Project', 'Acting', 'Video Editing']
+        },
         {
           title: 'Sewa Foundation — Dream Tour',
           desc: 'A collaborative project blending real college B-rolls, custom animations, and motion graphics into an educational career roadmap. Executed narrative structuring and final editing within a multi-disciplinary team.',
