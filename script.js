@@ -100,7 +100,7 @@
           tags: ['Team Project', 'Narrative', 'Video Editing']
         }
       ]
-    }
+    },
     {
       id: 'talking-head',
       label: 'Talking Head',
