@@ -193,14 +193,14 @@
       id: 'animated-ngo',
       label: 'Client Work',
       tone: 'tone-animated',
-      blurb: 'Handled client\'s youtube channel end to end from scripting, hosting, editing and post production for promoting their product/event.',
+      blurb: 'Handled client\'s youtube channel, insta and individual videos end to end.',
       projects: [
          
         {
           title: 'SMM mafia - youtube channel',
           desc: 'A youtube channel for educating people about social media marketing. handled end to end work including scripting,performing, editing and post production.',
           link: 'https://www.youtube.com/@smmmafia',
-          thumb: './images/SMM samir.png',
+          thumb: './images/SMM.png',
           duration: 'Education',
           tags: ['Solo Project', 'Acting', 'Video Editing']
         },
