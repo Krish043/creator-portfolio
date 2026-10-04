@@ -200,7 +200,7 @@
           title: 'SMM mafia - youtube channel',
           desc: 'A youtube channel for educating people about social media marketing. handled end to end work including scripting,performing, editing and post production.',
           link: 'https://www.youtube.com/@smmmafia',
-          thumb: './images/ss.avif',
+          thumb: './images/SMM samir.png',
           duration: 'Education',
           tags: ['Solo Project', 'Acting', 'Video Editing']
         },
