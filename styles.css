@@ -172,7 +172,7 @@ em { font-style: italic; font-family: var(--f-display); font-weight: 600; }
 
 .hero__meta {
   font-family: var(--f-mono);
-  font-size: 11px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: .18em;
 }
@@ -231,9 +231,9 @@ em { font-style: italic; font-family: var(--f-display); font-weight: 600; }
   margin-top: 50px;
 }
 .hero__sub {
-  font-size: clamp(15px, 1.2vw, 18px);
+  font-size: clamp(27px, 1.2vw, 18px);
   line-height: 1.5;
-  max-width: 520px;
+  max-width: 820px;
   color: var(--ink-soft);
 }
 .highlight {
